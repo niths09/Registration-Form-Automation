@@ -1,40 +1,33 @@
-# ToolsQA Automation Using Selenium
+# LambdaTest Playground Project
 
-### Description
-This project demonstrates an automation script for user registration, login and logout on the ToolsQA demo application. The script interacts with the web elements on the registration and login pages to simulate a user performing the following tasks:
-1. Registering a new account.
-2. Logging in with the registered account.
-3. Logging out of the account.
+## Project Description
+This is an automation script designed to test the registration and login functionality of the Ecommerce Playground website. It utilizes Selenium WebDriver with Java to simulate user interactions, such as filling out forms, navigating through pages and verifying successful actions. This script automates the process of creating a new user account, logging out and re-logging in, ensuring the website's core features function as expected.
 
-The script uses Selenium WebDriver with Java and incorporates manual handling for CAPTCHA verification.
+---
 
+## Features
+1. Automates user registration with predefined data inputs.
+2. Validates the success message for account creation.
+3. Automates user logout and subsequent login.
+4. Verifies the functionality of critical UI elements such as buttons, text fields, and messages.
+5. Implements JavaScript scrolling to handle long web pages.
+6. Includes delays to mimic real-world user interactions.
 
-### Features
-- Automates the registration process by filling in user details.
-- Handles manual CAPTCHA solving with a pause in the script.
-- Automates login and logout functionalities after successful registration.
-- Alerts and confirmations are managed effectively in the script.
-- Uses dynamic waits to handle varying page load times.
+---
 
+## Prerequisites
+- **Java Development Kit (JDK)** installed (version 11 or higher recommended).
+- **Google Chrome** browser installed.
+- **ChromeDriver** compatible with the installed Chrome browser version.
+- **Eclipse IDE** or any other Java-supported IDE.
+- **Selenium WebDriver** library added to the project.
 
-### Prerequisites
-Before running the project, ensure the following are installed and set up:
+---
 
-1. **Java Development Kit (JDK)**: Install JDK 8 or later and set up the environment variables.
-2. **Selenium WebDriver**: Include the Selenium library in your project. You can add it using a dependency manager like Maven/Gradle or manually download it.
-3. **WebDriver Binary**: Ensure the ChromeDriver binary is installed and matches your Chrome browser version. Place it in a directory included in your system's PATH or provide the path explicitly in the code.
-4. **Browser**: Google Chrome browser installed on the system.
-5. **IDE**: Use an Integrated Development Environment like IntelliJ IDEA or Eclipse to run the script.
-
-
-### **Technologies Used**
-- **Programming Language**: Java
-- **Automation Framework**: Selenium WebDriver
-- **Browser**: Google Chrome
-- **Testing Environment**: ToolsQA Demo Page
-- **Java Libraries**:
-  - Selenium Support Libraries (`org.openqa.selenium.*`)
-  - WebDriverWait and ExpectedConditions for dynamic waits
-  - Java Utilities like `Scanner` for user input
-  - JavaScript Executor for smooth scrolling
-
+## Technologies Used
+- **Java**: Programming language for writing the automation script.
+- **Selenium WebDriver**: For browser automation.
+- **Google Chrome & ChromeDriver**: Browser and corresponding WebDriver for executing the test.
+- **JavaScriptExecutor**: For scrolling actions.
+- **Explicit Waits**: To handle dynamic elements and ensure proper interaction.
+- **Eclipse IDE**: Integrated Development Environment for Java development.
